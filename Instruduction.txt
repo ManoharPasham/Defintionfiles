@@ -1,0 +1,23 @@
+Code libraries:
+
+Pod        - v1
+service    - v1
+Secret     - v1
+Namespace  - v1
+ReplicationC - v1 ( Depricated )
+ReplicaSet - apps/v1
+Deployment - apps/v1	
+StatefulSet- apps/v1
+
+....
+
+Pod -- Pod is smallest deployment object in K8s. it can have multiple containers. containers in pod
+        have same ip address and volumes.
+		
+Service -- Port Mapping and Network load balancing
+Secret -- which is used for passing encrypted data to the pods.
+Namespace -- Logical Partitions 
+volumes : preserve the data even when the pods are deleted
+........
+
+ 
